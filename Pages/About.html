@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About - Owera Software Supply</title>
+	<link rel="icon" type="image/svg+xml" href="../Content/BoatSky.svg">
+	<!-- Tailwind CSS CDN -->
+	<script src="https://cdn.tailwindcss.com"></script>
+	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<style>
+        .border-light-navy { border-color: #364874; }
+		.bg-navy { background-color: #202A44; }
+		.hover\:text-navy:hover { color: #202A44; }
+        .bg-dark-navy { background-color: #161D2E; }
+        .bg-sky { background-color: #08BEF0; }
+        .text-sky { color: #08BEF0; }
+		.border-sky-opacity { border-color: rgba(8, 190, 240, 0.5); /* sky with 50% opacity */}
+	</style>
+</head>
+<body class="bg-dark-navy min-h-screen flex flex-col justify-start items-center">
+	<nav class="bg-navy text-white px-4 py-3 flex flex-col md:flex-row items-center justify-between w-full">
+		<a href="/Pages/Index.html" class="flex-shrink-0 mb-4 md:mb-0 md:mr-4 flex justify-center w-full md:w-auto">
+			<img src="../Content/BoatWhite.svg" alt="White Owera Software Solutions Boat Icon" class="w-12 h-12 md:w-[50px] md:h-[50px]"/>
+		</a>
+		<div class="flex-1 flex justify-center w-full md:w-auto">
+			<ul class="flex flex-col md:flex-row md:space-x-6 space-y-2 md:space-y-0 w-full md:w-auto items-center">
+				<li class="w-full md:w-auto">
+					<a href="/Pages/Index.html" class="flex items-center gap-2 w-full justify-center px-3 py-2 rounded-lg border-2 border-white text-white bg-transparent font-semibold hover:bg-white hover:text-navy transition-colors">
+						<i class="fas fa-house group-hover:text-white"></i> Home
+					</a>
+				</li>
+				<li class="w-full md:w-auto">
+					<a href="/Pages/About.html" class="flex items-center gap-2 w-full justify-center px-3 py-2 rounded-lg border-2 border-white text-white bg-transparent font-semibold hover:bg-white hover:text-navy transition-colors">
+						<i class="fas fa-user group-hover:text-white"></i> About
+					</a>
+				</li>
+				<li class="w-full md:w-auto">
+					<a href="/Pages/Projects.html" class="flex items-center gap-2 w-full justify-center px-3 py-2 rounded-lg border-2 border-white text-white bg-transparent font-semibold hover:bg-white hover:text-navy transition-colors">
+						<i class="fas fa-folder group-hover:text-white"></i> Projects
+					</a>
+				</li>
+				<li class="w-full md:w-auto">
+					<a href="/Pages/Contact.html" class="flex items-center gap-2 w-full justify-center px-3 py-2 rounded-lg border-2 border-white text-white bg-transparent font-semibold hover:bg-white hover:text-navy transition-colors">
+						<i class="fas fa-envelope group-hover:text-white"></i> Contact
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+    <section class="flex flex-col items-center justify-center py-8 px-2 sm:px-4 gap-8 max-w-4xl w-full">
+        <div class="flex items-center justify-center sm:justify-start w-full">
+            <h1 class="text-white text-3xl text-center sm:text-left sm:text-4xl md:text-5xl font-semibold w-full">About</h1>
+        </div>
+        <div class="flex flex-col items-start justify-center bg-navy border border-light-navy rounded-lg py-6 px-4 sm:px-8 gap-6 w-full">
+            <div class="flex items-center gap-4">
+				<i class="fas fa-user text-sky text-2xl"></i>
+                <h2 class="text-white font-bold text-2xl">Personal Information</h2>
+            </div>
+            <p class="text-gray-300 text-lg">
+                I'm a passionate Unreal Engine developer with extensive experience in creating custom plugins and stunning UMG interfaces. My goal is to help bring your creative visions to life through clean, efficient, and maintainable code.
+            </p>
+            <p class="text-gray-300 text-lg">
+                With years of experience in the industry, I've worked on projects ranging from indie games to enterprise applications, always focusing on delivering high-quality solutions that meet and exceed client expectations.
+            </p>
+        </div>
+        <div class="flex flex-col items-start justify-start w-full gap-4">
+            <div class="flex flex-col md:flex-row items-center md:space-x-8 space-y-8 md:space-y-0 w-full justify-center">
+                <div class="flex flex-col gap-4 max-w-xl w-full border border-sky-opacity py-6 px-4 sm:px-8 rounded-lg">
+                    <div class="flex gap-4 w-full">
+                        <i class="fa-solid fa-code text-sky text-xl sm:text-2xl"></i>
+                        <h1 class="text-white text-lg sm:text-2xl font-bold">Technical Skills</h1>
+                    </div>
+                    <ul class="list-disc list-inside pl-2">
+                        <li class="text-gray-300 text-base sm:text-lg">C++ Programming</li>
+                        <li class="text-gray-300 text-base sm:text-lg">Blueprint Scripting</li>
+                        <li class="text-gray-300 text-base sm:text-lg">Plugin Development</li>
+                        <li class="text-gray-300 text-base sm:text-lg">UMG UI</li>
+                        <li class="text-gray-300 text-base sm:text-lg">Performance Optimization</li>
+                    </ul>
+                </div>
+                <div class="flex flex-col gap-4 max-w-xl w-full border border-sky-opacity py-6 px-4 sm:px-8 rounded-lg">
+                    <div class="flex gap-4 w-full">
+                        <i class="fa-solid fa-award text-sky text-xl sm:text-2xl"></i>
+                        <h1 class="text-white text-lg sm:text-2xl font-bold">Qualifications</h1>
+                    </div>
+                    <ul class="list-disc list-inside pl-2">
+                        <li class="text-gray-300 text-base sm:text-lg">M.S Game Programming - DePaul Univsersity</li>
+                        <li class="text-gray-300 text-base sm:text-lg">B.S Computer Science - Syracuse Univsersity</li>
+                        <li class="text-gray-300 text-base sm:text-lg">3+ Years of UE5 Experience</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col justify-start items-start bg-navy border border-light-navy rounded-lg py-6 px-4 sm:px-8 gap-4 w-full mb-20">
+            <div class="flex items-center gap-4">
+                <i class="fa-solid fa-hammer text-sky text-xl sm:text-2xl"></i>
+                <h2 class="text-white font-bold text-lg sm:text-2xl">My Approach</h2>
+            </div>
+            <p class="text-gray-300 text-base sm:text-lg">
+                I'm a passionate Unreal Engine developer with extensive experience in creating custom plugins and stunning UMG interfaces. My goal is to help bring your creative visions to life through clean, efficient, and maintainable code.
+            </p>
+            <p class="text-gray-300 text-base sm:text-lg">
+                With years of experience in the industry, I've worked on projects ranging from indie games to enterprise applications, always focusing on delivering high-quality solutions that meet and exceed client expectations.
+            </p>
+        </div>
+	</section>
+</body>
+</html>
