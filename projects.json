@@ -1,42 +1,34 @@
 [
   {
     "id": "llm-dialog-generator",
-    "serviceType": "Plugin Development",
-    "title": "LLM Dialog Generator Tool",
-    "description": "An editor plugin that makes creating character dialog easier by utilizing an LLM of your choice.",
-    "skills": ["C++", "UMG", "Gameplay"],
-    "videoLink": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "serviceType": "Tool Development",
+    "title": "LLM Dialog Generator",
+    "description": "LLM powered dialog generator that can automatically export dialog into a Data Table for easy in game use.",
+    "skills": [
+      "C++",
+      "Slate"
+    ],
+    "videoLink": "https://youtu.be/8HMAeZydbfw"
   },
   {
-    "id": "inventory-system",
-    "serviceType": "UMG UI Development",
-    "title": "Inventory System UI",
-    "description": "A fully functional inventory system with drag-and-drop, item categorization, and real-time updates.",
-    "skills": ["UMG", "Blueprint", "Animation"],
-    "videoLink": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "id": "map-editor",
+    "serviceType": "Gameplay System",
+    "title": "Map Editor",
+    "description": "Drag-and-drop in game map editor that can be easily modified into an inventory or larger map editing system. ",
+    "skills": [
+      "UMG",
+      "Blueprint"
+    ],
+    "videoLink": "https://youtu.be/P8qKaDFLarw"
   },
   {
-    "id": "camera-system",
-    "serviceType": "Plugin Development",
-    "title": "Advanced Camera System",
-    "description": "Custom camera plugin with smooth transitions, dynamic framing, and cinematic tools for enhanced gameplay.",
-    "skills": ["C++", "Blueprint", "Cinematics"],
-    "videoLink": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-  },
-  {
-    "id": "main-menu-hud",
-    "serviceType": "UMG UI Development",
-    "title": "Main Menu & HUD",
-    "description": "Polished main menu and in-game HUD with settings management, keybinding customization, and responsive design.",
-    "skills": ["UMG", "Blueprint", "UI/UX"],
-    "videoLink": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-  },
-  {
-    "id": "audio-testing-tool",
-    "serviceType": "Plugin Development",
-    "title": "Audio Testing Tool",
-    "description": "Comprehensive audio testing tool giving in game audio parameter adjustments.",
-    "skills": ["C++", "Gameplay", "Audio"],
-    "videoLink": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "id": "space-ship-controller",
+    "serviceType": "Gameplay System",
+    "title": "Space Ship Controller",
+    "description": "A physics based space ship controller designed for mouse and keyboard use.",
+    "skills": [
+      "Blueprint"
+    ],
+    "videoLink": "https://youtu.be/H6JoUkRgu7o"
   }
 ]

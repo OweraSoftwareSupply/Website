@@ -55,7 +55,23 @@ function displayProject(project) {
     videoContainer.className = 'w-full aspect-video rounded-lg overflow-hidden border border-light-navy bg-dark-navy';
     
     const iframe = document.createElement('iframe');
-    iframe.src = project.videoLink;
+    
+    // Convert YouTube watch URL to embed URL.
+    let videoUrl = project.videoLink;
+    if (videoUrl) {
+        try {
+            const url = new URL(videoUrl);
+            // pathname will be like '/VIDEO_ID'
+            const videoId = url.pathname.substring(1); 
+            if (videoId) {
+                videoUrl = `https://www.youtube.com/embed/${videoId}`;
+            }
+        } catch (e) {
+            console.error('Error parsing youtu.be URL:', e);
+        }
+    }
+
+    iframe.src = videoUrl;
     iframe.className = 'w-full h-full';
     iframe.setAttribute('frameborder', '0');
     iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');

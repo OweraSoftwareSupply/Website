@@ -1,23 +1,19 @@
 [
     {
         "question": "Do you work with Blueprints or C++?",
-        "answer": "Projects can be build in either Blueprint or C++. Depending on the service, we might recommend one over the other."
+        "answer": "Projects can be build in either Blueprint or C++. Depending on the service, one might be recommended over the other."
     },
     {
         "question": "What is your payment structure?",
-        "answer": "The payment structure is based at $30/hour for all services. Depending on the project a fixed price could be arranged."
-    },
-    {
-        "question": "Do you offer long-term support?",
-        "answer": "Yes, we can provide ongoing maintenance and support for projects already built."
+        "answer": "All services start at $50 and go up from there depending on the scope of the project."
     },
     {
         "question": "How do we communicate during the project?",
-        "answer": "Primarily via email for daily communication. We're also available for video calls over Google Meet if this is preferred."
+        "answer": "Primarily via email for daily communication. I'm also available for video calls over Google Meet if this is preferred."
     },
     {
         "question": "What is the turn around time?",
-        "answer": "Depends on the project scope, requirements, and our current workload. A small project could take a few days, while larger projects may take several weeks."
+        "answer": "Depends on the project scope and my current workload. A small project could take a few days, while larger projects may take several weeks."
     },
     {
         "question": "What if something isn't work or is missing from the final deliverable?",
