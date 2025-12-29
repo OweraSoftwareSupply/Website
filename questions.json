@@ -1,11 +1,11 @@
 [
     {
         "question": "Do you work with Blueprints or C++?",
-        "answer": "Projects can be build in either Blueprint or C++. Depending on the service, one might be recommended over the other."
+        "answer": "Projects can be built in either Blueprint or C++. Depending on the project, one might be recommended over the other."
     },
     {
         "question": "What is your payment structure?",
-        "answer": "All services start at $50 and go up from there depending on the scope of the project."
+        "answer": "All services start at $25 and go up from there depending on the scope of the project."
     },
     {
         "question": "How do we communicate during the project?",
